@@ -1,0 +1,89 @@
+*{
+    margin: .2em;
+    padding: 0;
+}
+body {
+    background-color: greenyellow;
+    font-family: "Roboto Mono", sans-serif;
+}
+head {
+    height: 12 vh;
+    margin: 20 px;
+}
+header h1 {
+    color: olivedrab;
+}
+header h6 {
+    font-size: 14 px;
+    color: olivedrab;
+    font-family: monospace;
+}
+a {
+    color: orange;
+    text-decoration: none;
+}
+nav{
+    border-top: solid orange;
+    border-bottom: solid orange;
+    width: 100vw;
+    text-align: center;
+    padding-top 100px;
+    padding-bottom 10px;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+}
+nav ul li:hover {
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+}
+#post {
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 0;
+}
+#main {
+    font-size: 26px;
+}
+.subject {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: olive;
+    margin-bottom: 10px;
+}
+.info {
+    color: olivedrab;
+    font-family: monospace;
+}
+#Stefen1-pic {
+    width: 163px;
+    height: 244.5px;
+    float: left;
+    object-fit: cover;
+    border-radius: .4em;
+    box-shadow: 2px 2px 2px darkgrey;
+    margin-right: 1em;
+}
+#Erica1-pic {
+    width: 163px;
+    height: 244.5px;
+    float: left;
+    object-fit: cover;
+    border-radius: .4em;
+    box-shadow: 2px 2px 2px darkgrey;
+    margin-right: 1em;   
+}
+#chef-cat {
+    width: 163px;
+    height: 244.5;
+    float: left;
+    object-fit: cover;
+    border-radius: .4em;
+    box-shadow: 2px 2px 2px darkgrey;
+    margin-right: 1em;  
+}
